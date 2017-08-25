@@ -1,3 +1,6 @@
 ﻿  RSD_starter_video.cpp
-  blkDect.vcxproj -> E:\blkDect\x64\Debug\blkDect.exe
-  blkDect.vcxproj -> E:\blkDect\x64\Debug\blkDect.pdb (Full PDB)
+c:\users\7657005\desktop\rsd_starter_video.cpp(124): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\7657005\desktop\rsd_starter_video.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\7657005\desktop\rsd_starter_video.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  blkDect.vcxproj -> C:\Users\7657005\Desktop\blkDect\x64\Debug\blkDect.exe
+  blkDect.vcxproj -> C:\Users\7657005\Desktop\blkDect\x64\Debug\blkDect.pdb (Full PDB)
