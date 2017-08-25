@@ -60,8 +60,10 @@ namespace {
         int blue_S_u = 255;
         int blue_V_u = 255;
 
+		double area_size = 100;
+
         namedWindow(window_name, CV_WINDOW_KEEPRATIO); //resizable window;
-		namedWindow(window_name, CV_WINDOW_KEEPRATIO); //resizable window;
+		namedWindow("original", CV_WINDOW_KEEPRATIO); //resizable window;
         namedWindow("Controls", CV_WINDOW_KEEPRATIO); //resizable window;
 
         createTrackbar("Blue H - Lower", "Controls", &blue_H_l, 179);
@@ -71,13 +73,14 @@ namespace {
         createTrackbar("Blue H - Upper ", "Controls", &blue_H_u, 179);
         createTrackbar("Blue S - Upper", "Controls", &blue_S_u, 255);
         createTrackbar("Blue V - Upper", "Controls", &blue_V_u, 255);
+
+		createTrackbar("Area", "Controls", &blue_V_u, 2000);
         
         //Mat frame = imread("C:\MyPic.jpg",CV_LOAD_IMAGE_GRAYSCALE);
         Mat frame;
 		Mat original;
         for (;;) {
             capture >> frame;
-            
 			capture >> original;
 
 			if (frame.empty())
@@ -92,9 +95,7 @@ namespace {
 			erode(frame, frame, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
 			dilate(frame, frame, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
 
-		
            inRange(frame, Scalar(blue_H_l, blue_S_l, blue_V_l), Scalar(blue_H_u, blue_S_u, blue_V_u), frame); //Threshold the image
-
 
             vector<vector<Point> > contours;
             vector<Vec4i> hierarchy;
@@ -102,15 +103,33 @@ namespace {
             
 			findContours( frame, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE, Point(0, 0) );
 			int i, j = 0;
+
+			int number = 0;
+
+			cout << contours.size() << endl;
+
             for( i= 0; i< contours.size(); i++ )
             {
-				double contourAre = contourArea(contours[i]);
+				Moments moment = moments((cv::Mat)contours[i]);
+
+				area_size = contourArea(contours[i]);
+
+				if (area_size > 100)
+				{
+					number++;
+
+					cout << moment.m10 / area_size << endl;
+					cout << moment.m01 / area_size << endl;
+					//found.setYPos(moment.m01 / area);
+					
+					
+				}
+
+				cout << number << endl;
 				
                 //double contourArea = (contours[i], false); 
-				cout << contourAre << endl;
 				
-				
-				
+
                 // Scalar color = Scalar( rng.uniform(0, 255), rng.uniform(0,255), rng.uniform(0,255) );
                 // drawContours( drawing, contours, i, color, 2, 8, hierarchy, 0, Point() );
             }   
@@ -128,6 +147,7 @@ namespace {
         
 
             imshow(window_name, frame);
+			imshow("original", original);
             char key = (char)waitKey(5); //delay N millis, usually long enough to display and capture input
             switch (key) {
         case 'q':
