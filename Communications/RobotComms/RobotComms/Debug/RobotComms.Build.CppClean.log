@@ -1,21 +1,34 @@
 h:\robotcomms\robotcomms\debug\vc140.pdb
-h:\robotcomms\robotcomms\debug\assemblyinfo.obj
+e:\rsd 2017\robotcomms\robotcomms\debug\robotcomms.pch
+e:\rsd 2017\robotcomms\robotcomms\debug\vc140.pdb
+e:\rsd 2017\robotcomms\robotcomms\debug\stdafx.obj
+e:\rsd 2017\robotcomms\robotcomms\debug\robotcomms.obj
+e:\rsd 2017\robotcomms\robotcomms\debug\assemblyinfo.obj
+e:\rsd 2017\robotcomms\robotcomms\debug\.netframework,version=v4.5.2.assemblyattributes.obj
+e:\rsd 2017\robotcomms\robotcomms\debug\.netframework,version=v4.5.2.assemblyattributes.asm
 h:\robotcomms\debug\robotcomms.pdb
-h:\robotcomms\robotcomms\debug\.netframework,version=v4.5.2.assemblyattributes.obj
-h:\robotcomms\robotcomms\debug\robotcomms.obj
-h:\robotcomms\robotcomms\debug\stdafx.obj
-h:\robotcomms\robotcomms\debug\app.res
-h:\robotcomms\robotcomms\debug\robotcomms.pch
-h:\robotcomms\debug\robotcomms.exe
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\cl.command.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\cl.read.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\cl.write.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\link.command.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\link.read.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\link.write.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\metagen.read.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\metagen.write.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\rc.command.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\rc.read.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\rc.write.1.tlog
-h:\robotcomms\robotcomms\debug\robotcomms.tlog\tzres.dll.bi
+e:\rsd 2017\robotcomms\debug\robotcomms.exe
+e:\rsd 2017\robotcomms\debug\robotcomms.pdb
+e:\rsd 2017\robotcomms\robotcomms\debug\app.res
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.vcxprojresolveassemblyreference.cache
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\.netframework,version=v4.5.2.assemblyattributes.obj
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\assemblyinfo.obj
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.obj
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\stdafx.obj
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\app.res
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.pch
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\vc140.pdb
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\debug\robotcomms.pdb
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\debug\robotcomms.exe
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\cl.command.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\cl.read.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\cl.write.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\link.command.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\link.read.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\link.write.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\metagen.read.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\metagen.write.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\rc.command.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\rc.read.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\rc.write.1.tlog
+c:\users\michael\desktop\robotics system design\rsd-2017-pick-and-place-project\communications\robotcomms\robotcomms\debug\robotcomms.tlog\tzres.dll.bi
